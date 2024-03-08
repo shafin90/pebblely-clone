@@ -2,13 +2,13 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <div className=' flex flex-col md:flex-row justify-between items-start mx-auto w-11/12'>
+        <div className=' flex flex-col md:flex-row justify-between items-start mx-auto w-[94vw]'>
 
             {/* Left side text ===================== */}
             <div className=' w-full md:w-4/12 pt-3 mb-5 md:mb-0'>
             <a className=" cursor-pointer text-sm bg-transparent border border-amber-400 hover:bg-amber-400  rounded-3xl text-gray-900 px-6 py-2">Generating Images with your brand colors</a>
               
-                <h1 className=' font-bold text-7xl text-black mb-6 mt-6'>
+                <h1 className=' font-bold text-7xl text-black mb-6 mt-6 leading-none'>
                     Beautiful product photos in seconds
                 </h1>
 
