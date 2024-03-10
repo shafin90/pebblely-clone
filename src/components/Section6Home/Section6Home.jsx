@@ -2,7 +2,7 @@ import React from 'react';
 
 const Section6Home = () => {
     return (
-        <div className=' flex flex-col md:flex-row justify-between items-start mx-auto w-[94vw]'>
+        <div className=' flex flex-col md:flex-row justify-between items-start mx-auto w-[94vw] mb-60'>
 
             {/* Left side text ===================== */}
             <div className=' w-full md:w-4/12 pt-3 mb-5 md:mb-0'>
@@ -28,7 +28,7 @@ const Section6Home = () => {
             {/* Right side image  container*/}
             <div className=' w-full md:w-8/12'>
                 <img
-                    className=' w-full'
+                    className=' w-full shadow-lg rounded-md'
                     src="/assets/images/section6.jpg" alt="" />
             </div>
 
